@@ -1,41 +1,123 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* Fondo azul claro */
-    color: #333; /* Texto gris oscuro */
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #007bff; /* Azul intenso */
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-h1, h2 {
-    color: #007bff; /* Azul intenso */
-}
-
-p {
+    background-color: #f4f4f9;
+    color: #333;
     line-height: 1.6;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
+/* Encabezado */
+header {
+    background: linear-gradient(135deg, #007bff, #00d2ff);
+    color: white;
+    text-align: center;
+    padding: 2em 0;
 }
 
-button {
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Sección de biografía */
+.bio {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: white;
+    margin: 1em auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+/* Galería de fotos */
+.photos {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.photos h2 {
+    color: #007bff;
+    margin-bottom: 1em;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.photo-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.photo-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Redes sociales */
+.social-media {
+    text-align: center;
+    padding: 2em 0;
+    background-color: white;
+    margin: 1em auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-media h2 {
+    color: #007bff;
+    margin-bottom: 1em;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icons a:hover {
+    color: #0056b3;
+    transform: scale(1.1);
+}
+
+.icons i {
+    margin-right: 8px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
     background-color: #007bff;
     color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
+    padding: 1em 0;
+    margin-top: 2em;
 }

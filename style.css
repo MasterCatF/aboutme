@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Fondo azul claro */
+    color: #333; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff; /* Azul intenso */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #007bff; /* Azul intenso */
+}
+
+p {
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
